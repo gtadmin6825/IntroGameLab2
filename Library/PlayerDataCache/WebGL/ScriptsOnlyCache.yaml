@@ -29,9 +29,11 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    - UnityEngine.InputSystem.InputSettings/iOSSettings
     - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
+    - UnityEngine.InputSystem.iOS.PrivacyDataUsage
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.UI:
@@ -73,25 +75,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10696}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 12084}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 12452}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 13132}
+      Script: {instanceID: 4042}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 5296}
     - Class: 114
-      Script: {instanceID: 15022}
+      Script: {instanceID: 5962}
     - Class: 114
-      Script: {instanceID: 15386}
+      Script: {instanceID: 6328}
     - Class: 114
-      Script: {instanceID: 15936}
+      Script: {instanceID: 6882}
     - Class: 114
-      Script: {instanceID: 16922}
+      Script: {instanceID: 7874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1078,4 +1080,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/IntroGameLab2/BuildLab2
+  playerPath: E:/IntroGameLab2/build
