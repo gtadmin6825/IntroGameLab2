@@ -12,6 +12,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -29,9 +31,11 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputBinding
     - UnityEngine.InputSystem.InputControlScheme
     - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    - UnityEngine.InputSystem.InputSettings/iOSSettings
     - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
+    - UnityEngine.InputSystem.iOS.PrivacyDataUsage
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.UI:
